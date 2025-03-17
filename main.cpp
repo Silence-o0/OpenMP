@@ -60,7 +60,7 @@ pair<vector<vector<double>>, size_t> read_input(const string& input_file_name) {
     return {matrix, n};
 }
 
-int parallel() {
+int main() {
     string input_file_name = "input5000.txt";
     const double epsilon = 0.001;
 
